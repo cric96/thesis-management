@@ -27,3 +27,19 @@ Phaser facade
 ## Day 7
 
 Phaser facade. Problem in test with costum configuration. link : https://github.com/scalacenter/scalajs-bundler/issues/130
+
+## End sprint 1, considerations
+
+The overall development performance isn't so good. There was different problems linked to scala.js. I hope to perform better in the new sprint.
+
+## Day 8
+
+Fix problems for scalatest: remove phaser object in testing with a specific webpack configuration. This is a workaround, find a cleaner solution. Stop work on phaser facade.
+
+## Day 9
+
+Define a structure for the application. Currently no specific UI framework was used, all the computation depens on a stream of side effects that alter the backend status.
+
+## Day 10
+
+Test the simulation execution (this task isn't in the sprint, but during the system structure i want to verify if the view works as expected)
